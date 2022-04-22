@@ -1,6 +1,7 @@
 # Hero seeker
 
 - Inicial proyect
-- Create first router
+- Creating first router
 - ClassName with isActive
   - className={({isActive} => 'name-class' + (isActive ? ' active' : ''))}
+- Creating second router.

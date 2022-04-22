@@ -1,6 +1,6 @@
 import { AppRouter } from './routers/AppRouter';
 
-export const HeroesApp = () => {
+export const HeroApp = () => {
   return (
     <AppRouter />
   )
