@@ -24,3 +24,6 @@
 - Apply hero filter.
   - QueryString.
 - Show conditional message and useMemo().
+
+#### Proteccion de rutas
+- Creacion de carpetas auth y types
