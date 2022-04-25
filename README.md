@@ -19,3 +19,4 @@
   - useMemo in getHeroById() and getHeroByPublisher()
 - Animations in our component.
   - animate.style
+- SearchComponent
