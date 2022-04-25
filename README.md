@@ -19,4 +19,5 @@
   - useMemo in getHeroById() and getHeroByPublisher()
 - Animations in our component.
   - animate.style
-- SearchComponent
+- SearchComponent.
+- Show list of heroes.
