@@ -14,3 +14,4 @@
 - Hero list.
 - Hero information cards.
 - Read arguments by URL.
+- Hero component styling.
