@@ -23,3 +23,4 @@
 - Show list of heroes.
 - Apply hero filter.
   - QueryString.
+- Show conditional message and useMemo().
