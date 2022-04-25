@@ -1,15 +1,18 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 
 export const Navbar = () => {
+  const navigate = useNavigate();
 
  const handleLogout = () => {
-  console.log('clic en logout');
+   navigate('/login', {
+    replace: true
+  });
  }
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <Link className="navbar-brand" to="/">
-        Asociaciones
+        HeroApp
       </Link>
 
       <div className="navbar-collapse">
