@@ -11,7 +11,7 @@ export const Navbar = () => {
  }
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-      <Link className="navbar-brand" to="/">
+      <Link className="navbar-brand mx-2" to="/">
         HeroApp
       </Link>
 
@@ -46,7 +46,7 @@ export const Navbar = () => {
        Elis Antonio
       </span>
           <button            
-       className="nav-item nav-link btn"
+       className="nav-item nav-link btn mx-2"
        onClick={handleLogout}
           >
             Logout

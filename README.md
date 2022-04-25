@@ -21,3 +21,5 @@
   - animate.style
 - SearchComponent.
 - Show list of heroes.
+- Apply hero filter.
+  - QueryString.
