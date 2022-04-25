@@ -1,4 +1,8 @@
-# Hero seeker
+# Hero App
+
+## Elis Antonio Pérez
+
+### React JS, Web.
 
 - Inicial proyect
 - Creating first router
@@ -8,4 +12,5 @@
 - Navigate push/replace.
   - useNavigate.
 - Hero list.
+- Hero information cards.
   
