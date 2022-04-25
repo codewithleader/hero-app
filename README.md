@@ -13,4 +13,4 @@
   - useNavigate.
 - Hero list.
 - Hero information cards.
-  
+- Read arguments by URL.
