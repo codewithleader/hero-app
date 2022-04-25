@@ -69,14 +69,16 @@ export const SearchScreen = () => {
        : (heroesFiltered.length === 0) && <div className="alert alert-danger">No results for: { q }</div>
      }
 
-     {
-      heroesFiltered.map(hero => (
-       <HeroCard
-        key={ hero.id }
-        {...hero}
-       />
-      ))
-     }
+     <div className="row row-cols-1 g-3">
+       {
+        heroesFiltered.map(hero => (
+         <HeroCard
+          key={ hero.id }
+          {...hero}
+         />
+        ))
+       }
+     </div>
     </div>
    </div>
   </div>
