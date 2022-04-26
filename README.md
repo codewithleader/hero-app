@@ -29,3 +29,5 @@
 - Creacion de carpetas auth y types
 - Context and Reducer of my app.
 - Provide global state of the app.
+- User login.
+- User logout.
