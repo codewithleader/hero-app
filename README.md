@@ -31,3 +31,5 @@
 - Provide global state of the app.
 - User login.
 - User logout.
+- Private Route.
+- Public Route.
