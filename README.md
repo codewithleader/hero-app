@@ -39,3 +39,4 @@
 
 #### Testing
 - Install and configure Enzyme.
+- Tests in the authReducer.
