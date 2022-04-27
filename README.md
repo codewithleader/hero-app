@@ -33,3 +33,6 @@
 - User logout.
 - Private Route.
 - Public Route.
+- Remember the last page visited.
+  - useLocation.
+  - localStorage.setItem and getItem

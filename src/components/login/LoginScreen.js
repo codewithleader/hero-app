@@ -7,17 +7,18 @@ export const LoginScreen = () => {
   const navigate = useNavigate();
   const { dispatch } = useContext(AuthContext);
 
+  const loginAction = {
+    type: types.login,
+    payload: {
+      name: "Elis Antonio",
+    },
+  };
   const handleLogin = () => {
-    const loginAction = {
-      type: types.login,
-      payload: {
-        name: "Elis Antonio",
-      },
-    };
-
     dispatch(loginAction);
 
-    navigate("/marvel", {
+    const lastPath = localStorage.getItem("lastPath") || "/marvel";
+
+    navigate(lastPath, {
       replace: true,
     });
   };
@@ -26,9 +27,19 @@ export const LoginScreen = () => {
     <div className="container mt-5">
       <h1>Login Screen</h1>
       <hr />
-      <button className="btn btn-outline-light btn-lg" onClick={handleLogin}>
-        Login
-      </button>
+
+      <div className="d-grid gap-2 col-md-4 col-sm-6 mx-auto">
+        <label className="form-label">Username</label>
+        <input
+          type="text"
+          className="form-control mb-3"
+          value={loginAction.payload.name}
+          disabled
+        />
+        <button className="btn btn-outline-light btn-lg" onClick={handleLogin}>
+          Login
+        </button>
+      </div>
     </div>
   );
 };
