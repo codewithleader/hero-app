@@ -36,3 +36,6 @@
 - Remember the last page visited.
   - useLocation.
   - localStorage.setItem and getItem
+
+#### Testing
+- Install and configure Enzyme.
