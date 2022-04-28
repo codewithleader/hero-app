@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AppRouter /> debe de mostrar login si no está autenticado 1`] = `
+<div
+  className="container mt-5"
+>
+  <h1>
+    Login
+  </h1>
+  <hr />
+  <div
+    className="d-grid gap-2 col-md-4 col-sm-6 mx-auto"
+  >
+    <label
+      className="form-label"
+    >
+      Username
+    </label>
+    <input
+      className="form-control mb-3"
+      disabled={true}
+      type="text"
+      value="Elis Antonio"
+    />
+    <button
+      className="btn btn-outline-light btn-lg"
+      onClick={[Function]}
+    >
+      Login
+    </button>
+  </div>
+</div>
+`;

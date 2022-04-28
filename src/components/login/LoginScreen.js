@@ -25,7 +25,7 @@ export const LoginScreen = () => {
 
   return (
     <div className="container mt-5">
-      <h1>Login Screen</h1>
+      <h1>Login</h1>
       <hr />
 
       <div className="d-grid gap-2 col-md-4 col-sm-6 mx-auto">

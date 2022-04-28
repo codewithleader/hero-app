@@ -40,3 +40,5 @@
 #### Testing
 - Install and configure Enzyme.
 - Tests in the authReducer.
+- Tests in the AppRouter.
+  - Debe de mostrar /login si no está autenticado.
