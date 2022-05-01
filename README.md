@@ -43,3 +43,4 @@
 - Tests in the AppRouter.
   - Should show login if not authenticated.
   - Authenticated user.
+- Tests in the DashboardRoutes
