@@ -4,12 +4,13 @@ import { AppRouter } from "../../routers/AppRouter";
 
 describe('Pruebas en <AppRouter />', () => {
  
- const contextValue = {
-  user: {
-   logged: false
-  }
- }
  test('debe de mostrar login si no está autenticado', () => {
+  const contextValue = {
+   user: {
+    logged: false
+   }
+  }
+  
   const wrapper = mount(
    <AuthContext.Provider value={ contextValue }>
     <AppRouter />
@@ -18,6 +19,26 @@ describe('Pruebas en <AppRouter />', () => {
   
   expect(wrapper).toMatchSnapshot();
   expect(wrapper.find('h1').text().trim()).toBe('Login');
+
+
+ });
+
+ test('debe de mostrar el componente de Marvel si está autenticado', () => {
+  const contextValue = {
+   user: {
+    logged: true,
+    name: 'Elis Antonio'
+   }
+  }
+
+  const wrapper = mount(
+   <AuthContext.Provider value={ contextValue }>
+    <AppRouter />
+   </AuthContext.Provider>
+  );
+  
+  expect(wrapper).toMatchSnapshot();
+  expect(wrapper.find('.navbar').exists()).toBe(true);
 
 
  });
