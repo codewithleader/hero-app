@@ -9,6 +9,10 @@ export const Navbar = () => {
 
   const navigate = useNavigate();
 
+  /**
+   * When the user clicks the logout button, dispatch the logout action, and then navigate to the login
+   * page.
+   */
   const handleLogout = () => {
     const logoutAction = {
       type: types.logout,
@@ -52,7 +56,7 @@ export const Navbar = () => {
       <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
      <ul className="navbar-nav ml-auto">
       <span className="nav-item nav-link text-info">
-       { user.name || 'Anonymous' }
+       { user.name }
       </span>
           <button            
        className="nav-item nav-link btn mx-2"
