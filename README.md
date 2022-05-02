@@ -47,3 +47,4 @@
   - Tests routes inside DashboardRoutes.
 - Tests in the SearchScreen.
   - Tests with the queryParameters.
+  - Mock of functions and requerActual.
