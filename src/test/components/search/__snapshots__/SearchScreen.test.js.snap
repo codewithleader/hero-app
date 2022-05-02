@@ -55,3 +55,109 @@ exports[`Pruebas en <SearchScreen /> debe de mostrarse correctamente con valores
   </div>
 </div>
 `;
+
+exports[`Pruebas en <SearchScreen /> debe mostrar a Batman y el input con el valor del queryString 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Search hero"
+          type="text"
+          value="batman"
+        />
+        <button
+          className="btn btn-outline-light mt-3"
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="row row-cols-1 g-3"
+      >
+        <div
+          className="col animate__animated animate__fadeIn"
+        >
+          <div
+            className="card bg-dark"
+          >
+            <div
+              className="row no-gutters"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Batman"
+                  className="card-img"
+                  src="/assets/dc-batman.jpg"
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Batman
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Bruce Wayne
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Detective Comics #27
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/dc-batman"
+                    onClick={[Function]}
+                  >
+                    More...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

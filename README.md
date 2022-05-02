@@ -46,3 +46,4 @@
 - Tests in the DashboardRoutes.
   - Tests routes inside DashboardRoutes.
 - Tests in the SearchScreen.
+  - Tests with the queryParameters.
