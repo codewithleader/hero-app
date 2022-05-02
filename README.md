@@ -49,3 +49,4 @@
   - Tests with the queryParameters.
   - Mock of functions and requireActual.
 - Tests in the Navbar.
+- Tests in the LoginComponent.
