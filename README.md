@@ -45,3 +45,4 @@
   - Authenticated user.
 - Tests in the DashboardRoutes.
   - Tests routes inside DashboardRoutes.
+- Tests in the SearchScreen.
