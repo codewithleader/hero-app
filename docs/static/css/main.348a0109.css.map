@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.348a0109.css","mappings":"AAAA,KACC,oDAAkE,CAClE,aACD","sources":["elis.css"],"sourcesContent":["body {\r\n background-image: linear-gradient(to right, rgb(144, 0, 0), black);\r\n color: antiquewhite; \r\n}"],"names":[],"sourceRoot":""}
