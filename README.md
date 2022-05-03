@@ -51,3 +51,4 @@
 - Tests in the Navbar.
 - Tests in the LoginScreen.
 - Tests in HeroScreen.
+- Tests in the PrivateRoute.
